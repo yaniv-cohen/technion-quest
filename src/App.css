@@ -1,0 +1,79 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.Header {
+  position: fixed;
+  display: flex;
+  justify-items: space-between;
+  gap: 30px;
+  margin: 0;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  background-color: rgba(100, 100, 100, 0.5);
+  align-items: center;
+  flex-grow: 1;
+}
+
+.Footer {
+  position: fixed;
+  display: flex;
+  justify-items: space-between;
+  gap: 30px;
+  margin: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(100, 100, 100, 0.5);
+  align-items: center;
+  flex-grow: 1;
+}
+.flexRow {
+  display: flex;
+  flex-flow: row;
+  gap: 10px;
+}
+
+.Card {
+  padding: 2em;
+  background-color: rgb(117, 78, 37);
+  border-radius: 30px;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.LeftRightLI {
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.pathBlob {
+
+  width: fit-content;
+  font-size: larger;
+  justify-content: space-evenly;
+}
+
+.tree-container{
+padding: 40px !important;
+margin: 16px;
+}
+
+.itemIcon {
+  margin: 0 auto;
+  padding-top: 20px;
+  border-radius: 30%;
+  display: inline;
+  height: 60px;
+  width: 60px;
+}
